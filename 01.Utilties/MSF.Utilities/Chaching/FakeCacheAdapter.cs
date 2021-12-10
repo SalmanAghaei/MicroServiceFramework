@@ -6,6 +6,7 @@ namespace MSF.Utilities.Chaching
 
     public class FakeCacheAdapter : ICacheAdapter
     {
+
         public void Add<TInput>(string key, TInput obj, DateTime? AbsoluteExpiration, TimeSpan? SlidingExpiration)
         { }
 
